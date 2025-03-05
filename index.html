@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ's Duct Cleaning - Professional HVAC & Air Duct Cleaning Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/cjs-logo-white.png" alt="CJ's Duct Cleaning Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#calculator">CALCULATOR</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <p>FOLLOW US</p>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Duct Cleaning Services</h1>
+                <p>Our team cleans your HVAC system, chimney and air ducts to a national standard using state of the art technologies and equipments</p>
+                <div class="hero-info">
+                    <div class="hours">
+                        <h2>We are Open 24 Hours</h2>
+                        <h3>7 Days a Week</h3>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Call Us Today!</h3>
+                        <p>Office: <a href="tel:5082456643">508.245.6643</a></p>
+                        <p>Cell: <a href="tel:7813671844">781.367.1844</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-wind"></i>
+                    <h3>HVAC System Cleaning</h3>
+                    <p>Complete cleaning of your heating, ventilation, and air conditioning systems to improve air quality and efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Chimney Cleaning</h3>
+                    <p>Professional chimney sweeping and maintenance to prevent fire hazards and ensure proper ventilation.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-fan"></i>
+                    <h3>Air Duct Cleaning</h3>
+                    <p>Thorough cleaning of your air ducts to remove dust, allergens, and contaminants for healthier indoor air.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <h2 class="section-title">Price Calculator</h2>
+            <p class="calculator-intro">Get an estimate for your duct cleaning service by selecting the number of floors and vents in your property.</p>
+            
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="floors">Number of Floors:</label>
+                        <select id="floors" name="floors">
+                            <option value="1">1 Floor</option>
+                            <option value="2">2 Floors</option>
+                            <option value="3">3 Floors</option>
+                            <option value="4">4 Floors</option>
+                            <option value="5">5 Floors</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="vents">Number of Vents:</label>
+                        <select id="vents" name="vents">
+                            <option value="1-3">1 to 3</option>
+                            <option value="4-6">4 to 6</option>
+                            <option value="7-10">7 to 10</option>
+                            <option value="11-15">11 to 15</option>
+                            <option value="16-20">16 to 20</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="calculator-result">
+                    <h3>Estimated Price:</h3>
+                    <div id="price-display" class="price">$300</div>
+                    <p class="disclaimer">*This is an estimate. Final price may vary based on specific conditions.</p>
+                </div>
+            </div>
+            
+            <div class="price-table-container">
+                <h3>Price Reference Table</h3>
+                <div class="price-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Vents</th>
+                                <th>1 Floor</th>
+                                <th>2 Floors</th>
+                                <th>3 Floors</th>
+                                <th>4 Floors</th>
+                                <th>5 Floors</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 to 3</td>
+                                <td>$300</td>
+                                <td>$400</td>
+                                <td>$450</td>
+                                <td>$550</td>
+                                <td>$650</td>
+                            </tr>
+                            <tr>
+                                <td>4 to 6</td>
+                                <td>$400</td>
+                                <td>$450</td>
+                                <td>$650</td>
+                                <td>$750</td>
+                                <td>$850</td>
+                            </tr>
+                            <tr>
+                                <td>7 to 10</td>
+                                <td>$650</td>
+                                <td>$750</td>
+                                <td>$850</td>
+                                <td>$950</td>
+                                <td>$1,150</td>
+                            </tr>
+                            <tr>
+                                <td>11 to 15</td>
+                                <td>$750</td>
+                                <td>$850</td>
+                                <td>$950</td>
+                                <td>$1,150</td>
+                                <td>$1,250</td>
+                            </tr>
+                            <tr>
+                                <td>16 to 20</td>
+                                <td>$950</td>
+                                <td>$1,150</td>
+                                <td>$1,250</td>
+                                <td>$1,450</td>
+                                <td>$1,650</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Benefits of Regular Duct Cleaning</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-lungs"></i>
+                    <h3>Improved Air Quality</h3>
+                    <p>Reduce allergens, dust, and pollutants in your home's air.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Energy Savings</h3>
+                    <p>Clean ducts improve system efficiency and reduce energy costs.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Extended System Life</h3>
+                    <p>Regular maintenance helps your HVAC system last longer.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-house-user"></i>
+                    <h3>Healthier Home</h3>
+                    <p>Fewer respiratory issues and a cleaner living environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Open 24 Hours</p>
+                            <p>7 Days a Week</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone Numbers</h3>
+                            <p>Office: <a href="tel:5082456643">508.245.6643</a></p>
+                            <p>Cell: <a href="tel:7813671844">781.367.1844</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Service Area</h3>
+                            <p>Serving all of Massachusetts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Request a Quote</h3>
+                    <form id="quote-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your needs" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/cjs-logo-white.png" alt="CJ's Duct Cleaning Logo" class="logo-img">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CJ's Duct Cleaning. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
